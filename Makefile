@@ -5,5 +5,5 @@ install:
 lint:
 	pylint --disable=R,C python_scaffolding/main.py
 
-format:
+test:
 	python -m pytest --vv --cov=main python_scaffolding/test_main.py
