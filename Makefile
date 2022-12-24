@@ -6,4 +6,4 @@ lint:
 	pylint --disable=R,C python_scaffolding/main.py
 
 test:
-	python -m pytest --vv --cov=main python_scaffolding/test_main.py
+	python -m pytest -vv --cov=main python_scaffolding/test_main.py
